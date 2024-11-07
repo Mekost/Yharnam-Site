@@ -1,5 +1,9 @@
 body {
     width: 100%;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
 }
 
 header {
@@ -26,10 +30,17 @@ nav {
 }
 
 .centering-sign {
+    height: 200px;
+    width: auto;
     display: flex;
-    justify-content: center;
+    justify-self: flex-start;
     align-self: flex-start;
     align-items: center;
+}
+
+.bloodborne-sign {
+    display: flex;
+    justify-self: center;
 }
     
 
@@ -52,13 +63,14 @@ nav {
     background-color: white;
     width: 100%;
     height: 20px;
+    margin: 5em 0;
 }
 
 .introduction {
     width: 100%;
     height: 500px;
     display: flex;
-    background-color: rgb(82, 82, 82);
+    background-color: rgba(82, 82, 82, 0.726);
 }
 
 .obrazek {
@@ -75,6 +87,11 @@ nav {
     padding: 0;
     height: 300px;
     width: auto;
+}
+
+.hunters-dream:hover {
+    color: black;
+    height: 250px;
 }
 
 .intro-text {
@@ -95,6 +112,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: rgba(98, 98, 98, 0.75);
 }
 
 .ruszaj-sie {
@@ -106,7 +124,80 @@ nav {
 .example-img {
     display: flex;
     justify-content: center;
+    align-self: center;
+    /* nvm, działa */
 
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.axe {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.axe-title {
+    align-self: center;
+    font-size: 3rem;
+}
+
+.axe-description {
+    width: 15rem;
+    margin-right: 100px;
+}
+
+.axe-icon {
+    height: 15rem;
+    width: 15rem;
+    align-self: flex-end;
+    
+}
+
+.axe-presentation {
+    height: 25rem;
+    width: 32rem;
+    object-fit: cover;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.cleaver {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cleaver-title {
+    align-self: center;
+    font-size: 3rem;
+}
+
+.cleaver-description {
+    width: 15rem;
+    margin-right: 100px;
+}
+
+.cleaver-icon {
+    height: 15rem;
+    width: 15rem;
+    align-self: flex-end;
+    
+}
+
+.cleaver-presentation {
+    height: 25rem;
+    width: 32rem;
+    object-fit: cover;
+    justify-content: center;
+    align-self: flex-end;
 }
 
 footer {
