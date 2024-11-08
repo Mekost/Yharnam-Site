@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blaborn</title>
     <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="queries.css">
     <link rel="icon" type="mark" href="img/Misc/hunters-mark-miniature-for-card.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,7 +29,7 @@
     </header>
     <main>
         <div class="contact-info">
-            <h2>CONTACT</h2>
+            <h2 class="contact">CONTACT</h2>
             <p class="contact-description">
                 Are you interested in working with other experienced hunters?
                 Or maybe you need help with surviving the night safely?
@@ -43,7 +44,8 @@
 
         <div class="form">
             <h3>Your mail address:</h3>
-            <input type="text" placeholder="Type your email adress here:" size="40" class="e-mail">
+            <input type="email" placeholder="Type your email adress here:" size="40" id="mail" class="e-mail" 
+            required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" />
             <h3>Choose your topic:</h3>
             <select name="topic">
                 <option>Select...</option>
@@ -52,9 +54,10 @@
                 <option>Something else</option>
             </select>
             <div></div>
-            <textarea placeholder="Type your message here..." rows="10" cols="100"></textarea>
-            <input type="submit" value="Send">
+            <textarea placeholder="Type your message here..." rows="10" cols="60" required class="area"></textarea>
+            <input type="submit" value="Send" id="submitbutton">
         </div>
     </main>
+    <script src="js/kontakt.js"></script>
 </body>
 </html>

@@ -114,7 +114,7 @@ a:hover {
     justify-self: flex-end;
     justify-content: center;
     align-self: center;
-    height: 18,75rem;
+    height: 18.75rem;
     width: 100%;
     overflow: hidden;
     border-radius: 2rem;
@@ -185,31 +185,33 @@ a:hover {
 .axe {
     display: flex;
     /* flex-direction: column; */
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     border-top: solid white 3px;
     border-bottom: solid white 3px;
     margin-top: 8rem;
+    background-color: rgba(71, 61, 61, 0.476);
+
 }
 
 .axe-title {
     display: flex;
     align-self: center;
     font-size: 3rem;
-    margin-left: 0;
+    /* margin-left: 0; */
 }
 
 .axe-description {
     width: 15rem;
     align-self: center;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
 }
 
 .axe-icon {
     height: 15rem;
     width: 15rem;
     align-self: center;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
     
 }
 
@@ -219,7 +221,7 @@ a:hover {
     object-fit: cover;
     justify-content: center;
     align-self: flex-end;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
     border: 2px solid white;
 }
 
@@ -231,17 +233,19 @@ a:hover {
     flex-direction: row-reverse;
     border-top: solid white 3px;
     border-bottom: solid white 3px;
-    margin: 4rem 0;
+    margin-top: 8rem;
+    background-color: rgba(71, 61, 61, 0.476);
+
 }
 
 .cleaver-title {
+    display: flex;
     align-self: center;
     font-size: 3rem;
 }
 
 .cleaver-description {
     width: 15rem;
-    margin-right: 4rem;
     align-self: center;
 }
 
@@ -249,7 +253,6 @@ a:hover {
     height: 15rem;
     width: 15rem;
     align-self: center;
-    margin-right: 4rem;
     
 }
 
@@ -259,38 +262,38 @@ a:hover {
     object-fit: cover;
     justify-content: center;
     align-self: flex-end;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
     border: 2px solid white;
 }
 
 .cane {
     display: flex;
     /* flex-direction: column; */
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     border-top: solid white 3px;
     border-bottom: solid white 3px;
+    margin-top: 8rem;
+    background-color: rgba(71, 61, 61, 0.476);
 
 }
 
 .cane-title {
+    display: flex;
     align-self: center;
     font-size: 3rem;
-    align-self: center;
 }
 
 .cane-description {
     width: 15rem;
-    /* margin-right: 100px; */
     align-self: center;
 }
 
 .cane-icon {
     height: 15rem;
     width: 15rem;
-    align-self: flex-end;
     align-self: center;
-    
+ 
 }
 
 .cane-presentation {
@@ -299,33 +302,43 @@ a:hover {
     object-fit: cover;
     justify-content: center;
     align-self: flex-end;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
     border: 2px solid white;
 }
 
-.axe, .cane, .cleaver {
+/* .axe, .cane, .cleaver {
     overflow: hidden;
-}
+} */
 
-.cleaver-test {
+/* .cleaver-test, .axe-test, .cane-test {
     height: 15rem;
     width: 15rem;
     overflow: hidden;
     /* border: 3px solid white; */
     /* display: flex; */
-    align-items: center;
-}
+    /* align-items: center;
+    justify-content: center; */
+/* } */
 
-.axe-icon, .cane-icon, .cleaver-icon {
-    transition: transform 0.3s ease-in-out
+/* .axe-icon, .cane-icon, .cleaver-icon {
+    width: 15rem;
+    max-width: 33.33rem;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    align-self: center;
+    justify-content: center;
+    
 }
 
 .axe-icon:hover, .cane-icon:hover, .cleaver-icon:hover {
     transform: scale(1.2);
     overflow: hidden;
-}
+} */
 
 footer {
-    color: white;
-    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }

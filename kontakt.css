@@ -88,7 +88,7 @@ a:hover {
     border-bottom: solid white 3px;
 }
 
-h2 {
+.contact {
     font-size: 4rem;
     font-weight: none;
     margin-left: 2rem;
@@ -116,3 +116,27 @@ h2 {
     width: 40rem;
     margin: 0;
 }
+
+input:invalid {
+    border: 2px dashed red;
+  }
+  
+  /* input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+  } */
+  
+  input:valid {
+    border: 2px solid black;
+  }
+
+  .area:invalid {
+    border: 2px dashed red;
+  }
+  
+  /* input:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+  } */
+  
+  .area:valid {
+    border: 2px solid black;
+  }
