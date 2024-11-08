@@ -28,6 +28,8 @@ nav {
     /* display: flex;
     align-self: flex-start;
     justify-content: right; */
+    padding-right: 5rem;
+    margin-top: 2rem;
 }
 
 a {
@@ -64,8 +66,10 @@ a:hover {
     color: white;
     justify-content: flex-start;
     font-size: 60px;
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px;
+    padding: 0px; */
+    padding-left: 5rem;
+    margin-top: 1rem;
     width: 35rem;
 }
 
@@ -82,8 +86,17 @@ a:hover {
     height: 31.25rem;
     display: flex;
     justify-content: center;
-    background-color: rgba(82, 82, 82, 0.726);
+    background-color: rgba(71, 61, 61, 0.476);
     /* justify-content: flex-end; */
+    margin-top: 2rem;
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+}
+
+.doll {
+    font-size: 3rem;
+    /* font-style: italic; */
+    padding: 2rem;
 }
 
 .gehrman {
@@ -92,6 +105,7 @@ a:hover {
     justify-content: flex-end;
     justify-self: flex-start;
     align-self: flex-end;
+    padding-left: 2rem;
 
 }
 
@@ -140,7 +154,10 @@ a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(98, 98, 98, 0.75);
+    background-color: rgba(71, 61, 61, 0.476);
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+    margin-top: 7rem;
 }
 
 .ruszaj-sie {
@@ -170,7 +187,9 @@ a:hover {
     /* flex-direction: column; */
     justify-content: center;
     flex-wrap: wrap;
-    
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+    margin-top: 8rem;
 }
 
 .axe-title {
@@ -196,11 +215,12 @@ a:hover {
 
 .axe-presentation {
     height: 25rem;
-    width: 32rem;
+    width: 44.44rem;
     object-fit: cover;
     justify-content: center;
     align-self: flex-end;
     margin-left: 4rem;
+    border: 2px solid white;
 }
 
 .cleaver {
@@ -209,6 +229,9 @@ a:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+    margin: 4rem 0;
 }
 
 .cleaver-title {
@@ -232,43 +255,52 @@ a:hover {
 
 .cleaver-presentation {
     height: 25rem;
-    width: 32rem;
+    width: 44.44rem;
     object-fit: cover;
     justify-content: center;
     align-self: flex-end;
-    margin-right: 4rem;
+    margin-left: 4rem;
+    border: 2px solid white;
 }
 
 .cane {
     display: flex;
     /* flex-direction: column; */
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+
 }
 
 .cane-title {
     align-self: center;
     font-size: 3rem;
+    align-self: center;
 }
 
 .cane-description {
     width: 15rem;
-    margin-right: 100px;
+    /* margin-right: 100px; */
+    align-self: center;
 }
 
 .cane-icon {
     height: 15rem;
     width: 15rem;
     align-self: flex-end;
+    align-self: center;
     
 }
 
 .cane-presentation {
     height: 25rem;
-    width: 32rem;
+    width: 44.44rem;
     object-fit: cover;
     justify-content: center;
     align-self: flex-end;
+    margin-left: 4rem;
+    border: 2px solid white;
 }
 
 .axe, .cane, .cleaver {
@@ -279,7 +311,9 @@ a:hover {
     height: 15rem;
     width: 15rem;
     overflow: hidden;
-    border: 3px solid white;
+    /* border: 3px solid white; */
+    /* display: flex; */
+    align-items: center;
 }
 
 .axe-icon, .cane-icon, .cleaver-icon {
